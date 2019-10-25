@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-  int a, b, c;
-  int count = 0;
-  cin >> a >> b >> c;
+    int a, b, c;
+    int count = 0;
+    cin >> a >> b >> c;
 
-  for (int x = a; x <= b; x++) {
-    if (c % x == 0) {
-      count++;
+    for(int x = a; x <= b; x++) {
+        if(c % x == 0) {
+            count++;
+        }
     }
-  }
-  cout << count << endl;
+    cout << count << endl;
 
-  return 0;
+    return 0;
 }
