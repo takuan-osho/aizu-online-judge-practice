@@ -5,20 +5,20 @@ int main() {
     int a, b, result;
     char op;
 
-    while(true) {
+    while (true) {
         cin >> a >> op >> b;
 
-        if(op == '?') {
+        if (op == '?') {
             return 0;
         }
 
-        if(op == '+') {
+        if (op == '+') {
             result = a + b;
-        } else if(op == '-') {
+        } else if (op == '-') {
             result = a - b;
-        } else if(op == '*') {
+        } else if (op == '*') {
             result = a * b;
-        } else if(op == '/') {
+        } else if (op == '/') {
             result = a / b;
         } else {
             return -1;

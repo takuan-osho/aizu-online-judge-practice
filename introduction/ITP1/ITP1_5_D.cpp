@@ -2,8 +2,8 @@
 using namespace std;
 
 bool hasThree(int x) {
-    while(x) {
-        if(x % 10 == 3) {
+    while (x) {
+        if (x % 10 == 3) {
             return true;
         }
         x /= 10;
@@ -15,8 +15,8 @@ int main() {
     int n;
     cin >> n;
 
-    for(int i = 1; i <= n; i++) {
-        if(i % 3 == 0 || hasThree(i)) {
+    for (int i = 1; i <= n; i++) {
+        if (i % 3 == 0 || hasThree(i)) {
             cout << " " << i;
         }
     }

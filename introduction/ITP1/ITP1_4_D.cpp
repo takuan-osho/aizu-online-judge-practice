@@ -10,7 +10,7 @@ int main() {
     int maxValue = -1000000;
     long long sum = 0;
 
-    for(int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         cin >> a;
 
         minValue = (a < minValue) ? a : minValue;

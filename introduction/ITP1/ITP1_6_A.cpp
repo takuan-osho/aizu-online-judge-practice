@@ -6,12 +6,12 @@ int main() {
     cin >> n;
 
     int digits[n];
-    for(int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         cin >> digits[i];
     }
 
-    for(int i = n - 1; i >= 0; i--) {
-        if(i != n - 1) {
+    for (int i = n - 1; i >= 0; i--) {
+        if (i != n - 1) {
             cout << " ";
         }
         cout << digits[i];
