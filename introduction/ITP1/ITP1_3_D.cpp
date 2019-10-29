@@ -6,8 +6,8 @@ int main() {
     int count = 0;
     cin >> a >> b >> c;
 
-    for(int x = a; x <= b; x++) {
-        if(c % x == 0) {
+    for (int x = a; x <= b; x++) {
+        if (c % x == 0) {
             count++;
         }
     }
