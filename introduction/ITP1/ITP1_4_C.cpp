@@ -12,15 +12,20 @@ int main() {
             return 0;
         }
 
-        if (op == '+') {
+        switch (op) {
+        case '+':
             result = a + b;
-        } else if (op == '-') {
+            break;
+        case '-':
             result = a - b;
-        } else if (op == '*') {
+            break;
+        case '*':
             result = a * b;
-        } else if (op == '/') {
+            break;
+        case '/':
             result = a / b;
-        } else {
+            break;
+        default:
             return -1;
         }
 
